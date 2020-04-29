@@ -1,0 +1,33 @@
+.list {
+    background-color: aqua;
+    margin:40px;
+    height: 40px;
+    border-radius: 10px;
+    justify-content: right;
+}
+
+.list p {
+    position: relative;
+    justify-content: right;
+
+    
+    }
+    
+    .list p span{
+    position:absolute;
+    justify-content: right;
+    margin-left: 100px; 
+    cursor: pointer;
+    color:red;
+    font-size:25px;
+    font-weight: 700;
+    }
+
+    .list p input {
+        border: none;
+        background: transparent;
+    }
+
+    .list p input:focus {
+        outline:none;
+    }
